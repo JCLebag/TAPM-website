@@ -6,7 +6,12 @@ module.exports = {
     './resources/**/*.vue',
 ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'apc-building': "url('/img/apc-building.png')",
+        'TAPM-logo': "url('/img/logo.png')",
+      }
+    },
   },
   plugins: [],
 }
